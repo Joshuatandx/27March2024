@@ -3,15 +3,14 @@ import google.generativeai as palm
 import replicate
 import os
 
-os.environ["REPLICATE_API_TOKEN"] = "r8_PgWv9pc0H0ITuiG96E5M6E8jWuFz4Zy1aZqMA"
+os.environ["REPLICATE_API_TOKEN"] = "r8_LSkuimZcWDyZbUAYGq2aKpdDs7IysFp1esTF7"
 
 model = {
     "model": "models/chat-bison-001"
 }
-palm.configure(api_key="AIzaSyCCT1K99BJ1JbLwhCE7qOcQ5KOZcPJ9ZZ4")
+palm.configure(api_key="AIzaSyAL_FCL8MVS1-qdkSgw-Sry125Y8WL72nA")
 
 app = Flask(__name__)
-
 name=""
 flag=1
 
